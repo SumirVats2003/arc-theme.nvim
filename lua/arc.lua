@@ -7,32 +7,41 @@ local function highlight(group, opts)
 end
 
 function M.load()
-  -- COLOR DEFINITIONS
   local bg_dark        = '#1c2433'
-  local bg             = '#1c2433'
-  local bg_light       = '#444c5b'
-  local bg_lighter     = '#444c5b'
-  local grey           = '#a1adb7'
-  local grey_dark      = '#444c5b'
+  local bg             = '#222B3A'
+  local bg_light       = '#2B3444'
+  local bg_lighter     = '#3A4353'
+
+  local grey           = '#A1ADB7'
+  local grey_dark      = '#5A6570'
+
   local red            = '#FF738A'
-  local heavy_red      = '#FF738A'
+  local heavy_red      = '#D94C5F'
+
   local green          = '#3CEC85'
-  local green_high     = '#3CEC85'
+  local green_high     = '#26D070'
+
   local blue           = '#69C3FF'
-  local blue_light     = '#69C3FF'
+  local blue_light     = '#9BD7FF'
+
   local yellow         = '#EACD61'
-  local yellow_light   = '#EACD61'
+  local yellow_light   = '#FFF799'
+
   local orange         = '#FF955C'
-  local orange_light   = '#FF955C'
+  local orange_light   = '#FFB27E'
+
   local purple         = '#B78AFF'
-  local cyan_dark      = '#77aed7'
+  local cyan_dark      = '#5CCFE6'
   local cyan           = '#22ECDB'
+
   local fg             = '#c3cfd9'
-  local fg_light       = '#ABB7C1'
-  local fg_dark        = '#a1adb7'
-  local hollow         = '#444c5b'
-  local hollow_lighter = '#444c5b'
-  local white          = '#c3cfd9'
+  local fg_light       = '#DCE3EB'
+  local fg_dark        = '#8B99A5'
+
+  local hollow         = '#3A4353'
+  local hollow_lighter = '#4A5463'
+
+  local white          = '#F0F3F5'
 
   local editor_syntax = {
     Normal = { fg = fg_light, bg = bg_dark },
