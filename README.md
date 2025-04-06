@@ -15,7 +15,7 @@ return {
   "SumirVats2003/arc-theme.nvim",
   config = function()
     vim.opt.termguicolors = true
-    vim.cmd "colorscheme arc-theme"
+    vim.cmd "colorscheme arc"
   end
 }
 ```
@@ -26,7 +26,7 @@ use {
   "SumirVats2003/arc-theme.nvim"
   config = function()
     vim.opt.termguicolors = true
-    vim.cmd "colorscheme arc-theme"
+    vim.cmd "colorscheme arc"
   end
 }
 ```
